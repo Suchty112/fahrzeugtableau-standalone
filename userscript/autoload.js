@@ -27,6 +27,15 @@
             document.body.appendChild(styleElement);
             
 //          -
+//          -           PeerJS CDN
+//          -
+
+            var scriptElement = document.createElement("script");
+            scriptElement.type = "text/javascript";
+            scriptElement.src = "https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.24/peerjs.min.js";
+            document.body.appendChild(scriptElement);
+            
+//          -
 //          -           UI-Creator
 //          -
 
