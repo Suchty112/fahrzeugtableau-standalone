@@ -11,5 +11,5 @@
 
 var scriptElement = document.createElement("script");
 scriptElement.type = "text/javascript";
-scriptElement.src = "https://rawgit.com/ChaosKai/fahrzeugtableau-standalone/master/userscript/content.js";
+scriptElement.src = "https://github.com/Suchty112/fahrzeugtableau-standalone/raw/master/userscript/content.js";
 document.body.appendChild(scriptElement);
